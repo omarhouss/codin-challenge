@@ -1,0 +1,27 @@
+
+coding-challenge (laravel and vue-js):
+
+
+ask: Create a  task management application using Laravel as the back-end and Vue.js as the front-end.
+
+Back-end:
+Create a new Laravel project.
+Create a new task model with fields for name, description, and completed (boolean).
+Create a task resource controller to handle CRUD operations for tasks.
+Create a new migration for the tasks table and seed the table with some dummy data.
+Create a new task service to handle any necessary business logic.
+Create a new task API endpoint that returns all tasks in the database.
+
+Front-end:
+Create a new Vue.js project.
+Create a new task component to display a list of tasks.
+Use axios to fetch the tasks from the API endpoint created in the back-end.
+Display the tasks in the task component using v-for.
+Add a button to each task to toggle the completed field and update the task in the back-end using axios.
+Add a form to the task component to create new tasks and send a post request to the back-end to create the new task.
+
+
+
+
+
+
